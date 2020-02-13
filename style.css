@@ -1,6 +1,43 @@
 
-div {
+
+
+.prodotto {
   width: 300px;
   height: 400px;
   background-color: grey;
+
+  display: inline-block;
+}
+
+.prodotto{
+  position: relative;
+}
+
+.prodotto img {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+.verde {
+  background-color: #006400;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.rosso{
+  background-color: #cd0404;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
 }
